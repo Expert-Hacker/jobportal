@@ -31,6 +31,14 @@ let Userscheema=new mongoose.Schema({
     preflocation3:{
         type:String
     },
+    filename:{
+        type:String,
+        default:""
+    },
+    path:{
+        type:String,
+        default:""
+    },
     createdAt:{
         type:Date,
         default:Date.now
